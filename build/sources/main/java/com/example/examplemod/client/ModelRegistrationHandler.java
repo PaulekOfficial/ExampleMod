@@ -1,6 +1,7 @@
 package com.example.examplemod.client;
 
 import com.example.examplemod.ExampleMod;
+import com.example.examplemod.init.ModBlocks;
 import com.example.examplemod.init.ModItems;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -18,6 +19,7 @@ public class ModelRegistrationHandler {
     @SubscribeEvent
     public static void registerModels(ModelRegistryEvent event) {
         registerModel(ModItems.RUBY, 0);
+        registerModel(Item.getItemFromBlock(ModBlocks.RUBIN_BLOCK), 0);
     }
 
     private static void registerModel(Item item, int meta) {
