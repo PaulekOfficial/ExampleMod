@@ -27,7 +27,7 @@ public class EventSubscriber {
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {
         final Item[] items = {
-                new Item().setRegistryName(ExampleMod.MOD_ID, "ruby").setUnlocalizedName(ExampleMod.MOD_ID + ".ruby").setCreativeTab(CreativeTabs.FOOD)
+                new Item().setRegistryName(ExampleMod.MOD_ID, "ruby").setUnlocalizedName(ExampleMod.MOD_ID + ".ruby").setCreativeTab(ExampleMod.CREATIVE_TABS)
         };
 
         final Item[] itemBlocks = {

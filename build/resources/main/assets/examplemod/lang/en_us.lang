@@ -3,3 +3,6 @@ item.examplemod.ruby.name=Ruby
 
 #Blocks
 tile.examplemod.ruby_block.name=Ruby Block
+
+#Item group
+itemGroup.examplemod=Example Mod

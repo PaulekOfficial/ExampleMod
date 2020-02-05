@@ -14,7 +14,7 @@ public class RubyBlock extends Block {
         super(Material.ROCK);
         this.setRegistryName(ExampleMod.MOD_ID, "ruby_block");
         this.setUnlocalizedName(ExampleMod.MOD_ID + ".ruby_block");
-        this.setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+        this.setCreativeTab(ExampleMod.CREATIVE_TABS);
         this.setSoundType(SoundType.STONE);
         this.setHarvestLevel("pickaxe", 2);
     }
