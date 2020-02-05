@@ -83,6 +83,7 @@ buildNumber.properties
 
 # gradle
 build
+gradle
 .gradle
 
 # Forge run client
