@@ -19,7 +19,7 @@ public class ModelRegistrationHandler {
     @SubscribeEvent
     public static void registerModels(ModelRegistryEvent event) {
         registerModel(ModItems.RUBY, 0);
-        registerModel(Item.getItemFromBlock(ModBlocks.RUBIN_BLOCK), 0);
+        registerModel(Item.getItemFromBlock(ModBlocks.RUBY_BLOCK), 0);
     }
 
     private static void registerModel(Item item, int meta) {

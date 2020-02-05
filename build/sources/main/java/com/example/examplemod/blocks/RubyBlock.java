@@ -8,15 +8,15 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 
-public class RubinBlock extends Block {
+public class RubyBlock extends Block {
 
-    public RubinBlock() {
+    public RubyBlock() {
         super(Material.ROCK);
-        setUnlocalizedName(ExampleMod.MOD_ID + ".ruby_block");
-        setRegistryName(ExampleMod.MOD_ID, "ruby_block");
-        setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
-        setSoundType(SoundType.STONE);
-        setHarvestLevel("pickaxe", 2);
+        this.setRegistryName(ExampleMod.MOD_ID, "ruby_block");
+        this.setUnlocalizedName(ExampleMod.MOD_ID + ".ruby_block");
+        this.setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+        this.setSoundType(SoundType.STONE);
+        this.setHarvestLevel("pickaxe", 2);
     }
 
     public Item getAsItem(){
