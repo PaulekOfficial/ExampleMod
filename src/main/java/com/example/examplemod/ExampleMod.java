@@ -12,7 +12,7 @@ import org.apache.logging.log4j.Logger;
 @Mod(modid = ExampleMod.MOD_ID, name = ExampleMod.NAME, version = ExampleMod.VERSION, acceptedMinecraftVersions = ExampleMod.MC_VERSION)
 public class ExampleMod
 {
-    //TODO more abstractions
+    //TODO more abstractions, baseitem, baseblock
     public static final String MOD_ID = "examplemod";
     public static final String NAME = "Example Mod";
     public static final String VERSION = "0.0.1";
