@@ -1,5 +1,10 @@
 # Items
 item.examplemod.ruby.name=Ruby
+item.examplemod.ruby_sword.name=Ruby Sword
+item.examplemod.ruby_axe.name=Ruby Axe
+item.examplemod.ruby_hoe.name=Ruby Hoe
+item.examplemod.ruby_shovel.name=Ruby Shovel
+item.examplemod.ruby_pickaxe.name=Ruby Pickaxe
 
 #Blocks
 tile.examplemod.ruby_block.name=Ruby Block

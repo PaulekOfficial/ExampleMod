@@ -10,8 +10,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
 @Mod(modid = ExampleMod.MOD_ID, name = ExampleMod.NAME, version = ExampleMod.VERSION, acceptedMinecraftVersions = ExampleMod.MC_VERSION)
-public class ExampleMod
-{
+public class ExampleMod {
     //TODO more abstractions, baseitem, baseblock
     public static final String MOD_ID = "examplemod";
     public static final String NAME = "Example Mod";

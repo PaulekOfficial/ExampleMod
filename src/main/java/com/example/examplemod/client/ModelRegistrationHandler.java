@@ -20,6 +20,11 @@ public class ModelRegistrationHandler {
     public static void registerModels(ModelRegistryEvent event) {
         registerModel(ModItems.RUBY, 0);
         registerModel(Item.getItemFromBlock(ModBlocks.RUBY_BLOCK), 0);
+        registerModel(ModItems.RUBY_SWORD, 0);
+        registerModel(ModItems.RUBY_PICKAXE, 0);
+        registerModel(ModItems.RUBY_AXE, 0);
+        registerModel(ModItems.RUBY_SHOVEL, 0);
+        registerModel(ModItems.RUBY_HOE, 0);
     }
 
     private static void registerModel(Item item, int meta) {

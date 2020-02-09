@@ -3,6 +3,7 @@ package com.example.examplemod.init;
 import com.example.examplemod.ExampleMod;
 import com.example.examplemod.blocks.RubyBlock;
 import com.example.examplemod.init.ModBlocks;
+import com.example.examplemod.items.*;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
@@ -28,7 +29,12 @@ public class EventSubscriber {
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {
         final Item[] items = {
-                new Item().setRegistryName(ExampleMod.MOD_ID, "ruby").setUnlocalizedName(ExampleMod.MOD_ID + ".ruby").setCreativeTab(ExampleMod.CREATIVE_TABS)
+                new RubyItem(),
+                new RubySwordItem(),
+                new RubyPickaxeItem(),
+                new RubyAxeItem(),
+                new RubyShovelItem(),
+                new RubyHoeItem()
         };
 
         final Item[] itemBlocks = {
